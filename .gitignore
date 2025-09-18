@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow (local runs folder)
+mlruns/
+
+# Large model files (use git-lfs for large binaries)
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
